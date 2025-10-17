@@ -1,0 +1,50 @@
+# Ignore Python cache
+__pycache__/
+app/__pycache__/
+
+# Ignore faiss index file
+faiss.index
+faiss.index.map
+
+# Environment and virtual envs
+.env
+venv/
+ENV/
+
+# Python stuff
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+download/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Database
+*.db
+rag_service.db
+
+# MacOS
+.DS_Store
