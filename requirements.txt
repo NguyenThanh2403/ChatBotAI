@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+sqlalchemy
+alembic
+sentence-transformers
+faiss-cpu
+pandas
+openpyxl
+pdfplumber
+python-dotenv
+requests
+tqdm
+langchain-text-splitters
+tiktoken
